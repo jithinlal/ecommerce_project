@@ -1,0 +1,152 @@
+body {
+	background-color: skyblue;
+}
+
+.main_wrapper {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background-color: inherit;
+}
+
+.header_wrapper {
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+}
+
+#logo {
+	float: left;
+}
+
+#banner {
+	float: right;
+}
+
+.content_wrapper {
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	background-color: inherit;
+}
+
+#content_area {
+	width: 800px;
+	/*height: 800px;*/
+	float: right;
+	background-color: pink;
+}
+
+.menubar {
+	width: 1000px;
+	height: 50px;
+	background-color: grey;
+	color: white;
+}
+
+#sidebar {
+	width: 200px;
+	/*height: 800px;*/
+	background-color: black;
+	float: left;
+}
+
+#footer {
+	width: 800px;
+	height: 100px;
+	float: right;
+	background-color: grey;
+	clear: both;
+}
+
+#menu {
+	padding: 0;
+	margin: 0;
+	line-height: 40px;
+	float: left;
+}
+
+#menu li {
+	list-style: none;
+	display: inline;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	padding: 0px;
+	margin: 5px;
+	font-size: 18px;
+	font-family: COMIC SANS;
+}
+
+#menu a:hover {
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#form {
+	float: right;
+	padding-right: 8px;
+	line-height: 40px;
+}
+
+#sidebar_title {
+	background-color: white;
+	color: black;
+	font-size: 22px;
+	font-family: arial;
+	padding: 10px;
+	text-align: center;
+}
+
+#sidebar_contents {
+	text-align: center;
+}
+
+#sidebar_contents li {
+	list-style: none;
+	display: block;
+	margin: 5px;
+}
+
+#sidebar_contents a {
+	color: white;
+	text-align: center;
+	padding: 8px;
+	margin: 5px;
+	font-size: 20px;
+	font-family: comic sans;
+	text-decoration: none;
+}
+
+#sidebar_contents a:hover {
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#products_box {
+	width: 780px;
+	text-align: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+#single_product {
+	float: left;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+#single_product img {
+	border: 2px solid #000;
+}
+
+#shopping_cart {
+	width: 800px;
+	height: 50px;
+	color: white;
+	background-color: black;
+}

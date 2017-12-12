@@ -1,0 +1,53 @@
+body{
+	background: skyblue;
+}
+
+.main_wrapper{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+}
+
+#header{
+	width: 1000px;
+	height: 120px;
+	background: url(../images/admin.png);
+	border-bottom: 5px groove orange;
+}
+
+#left{
+	width: 795px;
+	height: 600px;
+	/*background: url(../images/right.jpg);*/
+	float: left;
+}
+
+#right{
+	width: 200px;
+	height: 600px;
+	float: right;
+	background-color: white; 
+	border-left: 5px groove orange;
+}
+
+#right a{
+	text-decoration: none;
+	color: black;
+	text-align: left;
+	font-size: 18px;
+	font-family: Ubuntu Sans;
+	padding: 6px;
+	margin: 6px;
+	display: block;
+}
+
+#right a:hover{
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
